@@ -46,7 +46,7 @@ conda activate makeittalk_env
 ```
 sudo apt-get install ffmpeg
 ```
-- python packages
+- python packages -> 2020년도에 맞게 버전 수정
 ```
 pip install -r requirements.txt
 ```
