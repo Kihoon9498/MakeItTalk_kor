@@ -152,6 +152,10 @@ Todo...
 ### Train Content Branch
 - Create dataset root directory `<root_dir>`
 
+
+- Dataset: .pickle로 구성된 파일
+ 1. fl 파일 : 전처리 함수 이용 + 정규화 함수 이용
+ 2. au 파일 : 전처리 함수 이용 + 정규화 함수 
 - Dataset: Download preprocessed dataset [[here]](https://drive.google.com/drive/folders/1EwuAy3j1b9Zc1MsidUfxG_pJGc_cV60O?usp=sharing), and put it under `<root_dir>/dump`.
 
 - Train script: Run script below. Models will be saved in `<root_dir>/ckpt/<train_instance_name>`.
